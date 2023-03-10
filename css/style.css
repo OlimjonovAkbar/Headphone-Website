@@ -117,4 +117,55 @@ header {
   margin-top: 0.5rem;
 }
 
+/* shop section style started  */
 
+.shop .shop__container{
+    display: grid;
+    grid-template-columns: repeat(3,164px);
+    justify-content: center;
+    gap: 3rem;
+}
+
+.shop__container .shop__box{
+    position: relative;
+    padding: 10px;
+    background: var(--bg-color);
+    box-shadow: 0 5px 8px rgb(15 54 55/ 10%);
+    border-radius: 0.5rem;
+    height: 180px;
+    display: grid;
+}
+
+.shop__container .shop__box img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto 1rem;
+}
+
+.shop__container .shop__box h3{
+    font-size: 0.9rem;
+}
+
+.shop__container .shop__box span{
+    font-weight: 500;
+}
+
+
+.shop__container .shop__box .bx{
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    padding: 10px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 0.5rem;
+    font-style: 1.1rem;
+    cursor: pointer;
+}
+
+
+.shop__container .shop__box .bx:hover{
+    background-color: var(--hover-color);
+}
