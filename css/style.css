@@ -64,7 +64,7 @@ header {
   margin-bottom: 1rem;
 }
 
-.home__text .text__btn {
+.btn {
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
@@ -169,3 +169,39 @@ header {
 .shop__container .shop__box .bx:hover{
     background-color: var(--hover-color);
 }
+
+/* buds section style started  */
+.buds__container {
+    display: grid;
+    grid-template-columns: 250px max-content;
+    background: var(--hover-color);
+    color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    border-radius: 0.5rem;
+}
+
+.buds__container .buds__img img{
+    width: 320px;
+}
+
+
+.buds__container .buds__text h2{
+    font-style: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.buds__container .buds__text span{
+    font-weight: 400;
+}
+
+.buds__text p{
+    margin: 1rem 0 1rem;
+}
+
+.buds__container .buds__text .buds__btn:hover{
+    background: hsl(0, 0%, 10%) !important;
+}
+
