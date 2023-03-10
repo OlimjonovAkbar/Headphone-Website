@@ -25,5 +25,17 @@ body{
     color: var(--text-color);
 }
 
+main{
+    overflow-x: hidden;
+}
+
+section{
+    padding: 4rem 0 3rem;
+}
 
 
+.container{
+    max-width: 968px;
+    width: 100%;
+    margin: auto;
+}

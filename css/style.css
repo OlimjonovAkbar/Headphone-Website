@@ -1,2 +1,120 @@
-@import url('./base.css');
+@import url("./base.css");
+
+/* header style started  */
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.nav .nav__logo img {
+  width: 41px;
+}
+
+.nav #menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav .nav__list {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.nav .nav__list .nav__item .nav__link {
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(#161616, #dddcfd);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.nav .nav__list .nav__item .nav__link:hover {
+  color: var(--text-color);
+}
+
+/* home section style started  */
+.home__content {
+  min-height: 640px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.home__text .text__title {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.home__text .text__content {
+  margin-bottom: 1rem;
+}
+
+.home__text .text__btn {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  padding: 16px 24px;
+  border-radius: 0.4rem;
+}
+
+.home__text .text__btn .bx {
+  font-size: 1.4rem;
+}
+
+.home__text .text__btn:hover {
+  background: var(--hover-color);
+}
+
+/* specs section style started  */
+
+.specs .specs__heading {
+  font-size: 3.4rem;
+  text-align: center;
+  background: linear-gradient(#161616, #dddcfd);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 2rem;
+}
+
+.specs .specs__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.specs .specs__container .specs__details {
+  display: grid;
+  row-gap: 1.4rem;
+}
+
+.specs .specs__container .specs__details .specs__box .bx {
+  font-size: 1.6rem;
+}
+
+.specs .specs__container .specs__details .specs__box h3 {
+  font-size: 1rem;
+}
+.specs .specs__container .specs__details .specs__box p {
+  margin-top: 0.5rem;
+}
+
 

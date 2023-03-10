@@ -1,17 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Headphone - Website</title>
-</head>
-<body>
-    
-    <h1>Hello World</h1>
+  </head>
+  <body>
+    <main class="main">
+      <!-- header  -->
+      <header>
+        <nav class="nav container">
+          <a href="#" class="nav__logo">
+            <img src="./images/logo.png" alt="Website Logo" />
+          </a>
 
+          <i class="bx bx-menu" id="menu-icon"></i>
 
-</body>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#specs" class="nav__link">Specs</a>
+            </li>
+            <li class="nav__item">
+              <a href="#shop" class="nav__link">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a href="#buds" class="nav__link">Buds</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- header -->
+
+      <!-- home section  -->
+      <section class="home" id="home">
+        <div class="home__content container">
+          <div class="home__img">
+            <img src="./images/home.png" alt="Home Page Image" />
+          </div>
+
+          <div class="home__text">
+            <h1 class="text__title">Beats Solo 3</h1>
+            <p class="text__content">
+              Beat Studio 3 Wireless over-ear headphones delivers premium sound
+              while blocking external noise with Active Noise Cancelling
+            </p>
+            <a class="text__btn btn" href="#">
+              <i class="bx bx-shopping-bag"></i>
+              <span>Add To Bag</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- home section  -->
+
+      <section class="specs">
+        <h1 class="specs__heading">Specs</h1>
+        <div class="specs__container container">
+          <div class="specs__details">
+            <div class="specs__box">
+              <i class="bx bxs-battery-charging"></i>
+              <h3>Up to 22 hours of listening time</h3>
+              <p>
+                Long-term comford is matched by a battary life 22 hours, and
+                40hours of playback when Noise Cancelling is turned off.
+              </p>
+            </div>
+            <div class="specs__box">
+              <i class="bx bx-headphone"></i>
+              <h3>Up to 22 hours of listening time</h3>
+              <p>
+                Long-term comford is matched by a battary life 22 hours, and
+                40hours of playback when Noise Cancelling is turned off.
+              </p>
+            </div>
+          </div>
+          <div class="specs__image">
+            <img src="./images/specs.png" alt="Specs" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./javascript/script.js"></script>
+  </body>
 </html>
