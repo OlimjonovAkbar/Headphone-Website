@@ -13,5 +13,21 @@ window.addEventListener('load', (e) => {
         navList.classList.toggle('active')
     })
 
+    // scroll reveal animated 
+    const sr = ScrollReveal({
+        origin:'top',
+        distance: '60px', 
+        duration: 2000,
+        delay:400,
+        reset: false
+    })
+
+    sr.reveal('.shop__container',{reset:true})
+    sr.reveal('.home__text, .buds__text', {origin:'left', reset: true})
+    sr.reveal('.home__img, .buds__img', {origin:'right'})
+    sr.reveal('.specs_heading', {delat: 200,reset: true}, )
+    sr.reveal('.specs__details .specs__box', {origin:'left',reset:true, interval:200})
+    sr.reveal('.specs__image', {origin:'top',reset:true, delay:600})
+
 })
 
